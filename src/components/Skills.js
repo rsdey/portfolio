@@ -1,4 +1,8 @@
-import meter1 from "../assets/img/meter1.png";
+import m1 from "../assets/img/m1.png";
+import m2 from "../assets/img/m2.png";
+import m3 from "../assets/img/m3.png";
+import m4 from "../assets/img/m4.png";
+import m5 from "../assets/img/m5.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -34,24 +38,24 @@ export const Skills = () => {
                         <p>Technical skills developed while creating projects and some research work.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="I" />
+                                <img src={m1} alt="I" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I" />
-                                <h5>SQL/DBMS</h5>
+                                <img src={m2} alt="I" />
+                                <h5>SQL/DBMS<br/><p>(MySQL, MongoDB)</p></h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I" />
+                                <img src={m3} alt="I" />
                                 <h5>AI/ML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I" />
-                                <h5>Web development</h5>
+                                <img src={m4} alt="I" />
+                                <h5>Web development<p>(Django, React)</p></h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="I" />
-                                <h5>Java</h5>
+                                <img src={m5} alt="I" />
+                                <h5>Java<br/><p>(J2EE)</p></h5>
                             </div>
                         </Carousel>
                     </div>
